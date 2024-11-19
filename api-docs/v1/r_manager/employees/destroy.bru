@@ -1,0 +1,15 @@
+meta {
+  name: destroy
+  type: http
+  seq: 5
+}
+
+delete {
+  url: {{API_URL}}/employees/2
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}

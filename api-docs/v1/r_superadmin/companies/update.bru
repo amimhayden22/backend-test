@@ -1,0 +1,24 @@
+meta {
+  name: update
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{API_URL}}/companies/7
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}
+
+body:json {
+  {
+    "_method": "PUT",
+    "name": "Global Inovasi Gemilang",
+    "email": "info@paketur.com",
+    "phone_number": 6285713583425
+  }
+}

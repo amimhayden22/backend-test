@@ -1,0 +1,25 @@
+meta {
+  name: update
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{API_URL}}/employees/3
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}
+
+body:json {
+  {
+    "_method": "PUT",
+    "name": "Amim",
+    "email": "amimxyz@gmail.com",
+    "phone_number": "085713583215",
+    "address": "Jalan Magelang"
+  }
+}

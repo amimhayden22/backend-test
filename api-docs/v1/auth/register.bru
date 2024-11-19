@@ -1,0 +1,20 @@
+meta {
+  name: register
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{API_URL}}/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Gus Khamim",
+    "email": "khamim@gmail.com",
+    "password": "Password123!",
+    "role": "superadmin"
+  }
+}

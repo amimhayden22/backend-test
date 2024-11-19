@@ -1,0 +1,23 @@
+meta {
+  name: store
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{API_URL}}/companies
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}
+
+body:json {
+  {
+    "name": "PT Global Inovasi Gemilang",
+    "email": "info1@paketur.com",
+    "phone_number": 6285713583425
+  }
+}

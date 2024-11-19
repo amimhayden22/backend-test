@@ -1,0 +1,24 @@
+meta {
+  name: store
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{API_URL}}/employees
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}
+
+body:json {
+  {
+    "name": "Amim",
+    "email": "amim1@gmail.com",
+    "phone_number": "085713583225",
+    "address": "Jalan Magelang"
+  }
+}

@@ -1,0 +1,15 @@
+meta {
+  name: show
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{API_URL}}/employees/3
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{TOKEN}}
+}

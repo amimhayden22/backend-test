@@ -55,3 +55,5 @@
 ![ERD](https://github.com/amimhayden22/backend-test/blob/main/ERD%20Backend%20Test%20Laravel%20-%20CRM%20Employee.drawio.png?raw=true)
 - Unit Test Result
 ![Unit Test](https://github.com/amimhayden22/backend-test/blob/main/Unit%20Test%20Result.png?raw=true) 
+
+Created By: [Gus Khamim](https://khamim.my.id).

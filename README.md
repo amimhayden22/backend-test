@@ -52,7 +52,6 @@
 
 ## Attachments
 - ERD
-![ERD](ERD Backend Test Laravel - CRM Employee.drawio.png)
+![ERD](https://github.com/amimhayden22/backend-test/blob/main/ERD%20Backend%20Test%20Laravel%20-%20CRM%20Employee.drawio.png?raw=true)
 - Unit Test Result
-![Unit Test](ERD Backend Test Laravel - CRM Employee.drawio.png)
-- 
+![Unit Test](https://github.com/amimhayden22/backend-test/blob/main/Unit%20Test%20Result.png?raw=true) 
